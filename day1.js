@@ -8,6 +8,9 @@ git branch -M main : 깃허브는 브랜치를 메인으로 두라고 명령하�
 git add 파일명 혹은 git add . 
 git commit -m '메세지'
 git push -u 저장소주소 main  로컬저장소에서 온라인으로 올려보자
+
+위에방향 안될경우
+git push -f origin main
 // n의배수고르기: 정수 n과 정수 배열 numlist가 매개변수로 주어질 때, numlist에서 n의 배수가 아닌 수들을 제거한 배열을 return하도록 solution 함수를 완성해주세요.
 function solution(n, numlist) {
     let arr = [];
